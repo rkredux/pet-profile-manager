@@ -1,6 +1,6 @@
 // This is just some sample data so you don't have to think of your own!
 
-const Pets = {
+const pets = {
 
   pet1: {
     name: 'Halle Berry',
@@ -82,4 +82,4 @@ const Pets = {
 
 };
 
-export default Pets; 
+export default pets; 
