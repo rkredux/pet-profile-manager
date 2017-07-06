@@ -15,7 +15,7 @@ class Main extends React.Component{
 				   <Link to="/">My Pets</Link>
 				</h1>
 
-				<Route exact path="/" component={Photogrid}/>
+				<Route exact path="/" component={ Photogrid } />
 
 				<Route path={`${/:petId/}`} component={Profile}></Route>
 				<Upload></Upload>
