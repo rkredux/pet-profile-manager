@@ -5,10 +5,10 @@
 
 
 //User interactions with pet profile 
-export function removePet(petId){
+export function removePet(petIndex){
 	return {
 		type:"REMOVE_PET", 
-		petId
+		petIndex
 	}
 }
 //totally delete the pet
