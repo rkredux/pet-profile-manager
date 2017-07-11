@@ -7,7 +7,24 @@ import '../styles/App.css';
 
 class Main extends React.Component{
 
+	constructor(props){
+		super(props); 
+		this.PhotoRoute = this.PhotoRoute.bind(this); 
+	}
+
+
+	
+
+
+	PhotoRoute(){
+ 
+		return (<Photogrid pets={this.props.pets}></Photogrid>); 
+	}
+
+
+
 	render(){
+
 		return (
 			<div className="main">
 
@@ -15,7 +32,7 @@ class Main extends React.Component{
 				   <Link to="/">My Pets</Link>
 				</h1>
 
-				<Route exact path="/" component={ Photogrid } />
+				<Route exact path="/" component={this.PhotoRoute}></Route>
 
 				<Route path={`${/:petId/}`} component={Profile}></Route>
 				<Upload></Upload>
@@ -25,3 +42,4 @@ class Main extends React.Component{
 }
 
 export default Main;  
+
