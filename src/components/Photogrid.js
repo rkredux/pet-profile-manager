@@ -1,12 +1,14 @@
 import React from "react"; 
 import { Link } from "react-router-dom"; 
+import { withRouter } from "react-router"; 
+
 
 
 class Photogrid extends React.Component{
 
 	render(){
-
-		return (
+		
+			return (
 
 		    <div className="photogrid">
 
@@ -25,4 +27,4 @@ class Photogrid extends React.Component{
 	}
 }
 
-export default Photogrid; 
+export default withRouter(Photogrid); 
