@@ -4,6 +4,7 @@ import Profile from "./Profile.js";
 import Upload from "./Upload.js";
 import { Link, Route } from "react-router-dom"; 
 import '../styles/App.css';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class Main extends React.Component{
 
@@ -26,6 +27,9 @@ class Main extends React.Component{
 	render(){
 
 		return (
+
+		<MuiThemeProvider>
+
 			<div className="main">
 
 				<h1>
@@ -37,6 +41,9 @@ class Main extends React.Component{
 				<Route path={`${/:petId/}`} component={Profile}></Route>
 				<Upload></Upload>
 			</div>
+			
+		</MuiThemeProvider>
+
          ); 
     }
 }
