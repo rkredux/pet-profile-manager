@@ -3,7 +3,7 @@
 const pets = {
 
   pet1: {
-    name: 'Halle Berry',
+    name: 'Halle',
     image: "./conference-images/conference-dog1.jpg", 
     desc: 'Everyones favorite white fish. We will cut it to the size you need and ship it.', 
     breed: "Boxer", 
@@ -16,7 +16,7 @@ const pets = {
   },
 
   pet2: {
-    name: 'Robin Crusoe',
+    name: 'Robin',
     image: "./conference-images/conference-dog2.jpg", 
     desc: 'These tender, mouth-watering beauties are a fantastic hit at any dinner party.', 
     breed: "Collie", 
@@ -29,7 +29,7 @@ const pets = {
   },
 
   pet3: {
-    name: 'Toasty Tantrum',
+    name: 'Toasty',
     image: "./conference-images/conference-dog3.jpg", 
     desc: 'Big, sweet and tender. True dry-pack scallops from the icey waters of Alaska. About 8-10 per pound.', 
     breed: "French Mastiff", 
@@ -42,7 +42,7 @@ const pets = {
   },
 
   pet4: {
-    name: 'Mahi Mahi',
+    name: 'Mahi',
     image: "./conference-images/conference-dog4.jpg", 
     desc: 'Lean flesh with a mild, sweet flavor profile, moderately firm texture and large, moist flakes.', 
     breed: "Bulldog", 
@@ -55,7 +55,7 @@ const pets = {
   },
 
   pet5: {
-    name: 'Bug Buster',
+    name: 'Bug',
     image: "./conference-images/conference-dog5.jpg", 
     desc: 'Crack these open and enjoy them plain or with one of our cocktail sauces.', 
     breed: "Corgi", 
@@ -68,7 +68,7 @@ const pets = {
   },
 
   pet6: {
-    name: 'Cookie Gobbler',
+    name: 'Cookie',
     image: "./conference-images/conference-dog6.jpg", 
     desc: 'This flaky, oily salmon is truly the king of the sea. Bake it, grill it, broil it...as good as it gets!', 
     breed: "Corintham", 
