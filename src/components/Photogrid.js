@@ -17,13 +17,13 @@ class Photogrid extends React.Component{
 
 		    <div className="photogrid">
 
-			      <ul>
+			      <ul className="imagelist">
 
 			        {Object.keys(this.props.pets)
 			        	   .map((elm) => 
 				        		<li key={elm}>
 					        		<Link to={`/${this.props.pets[elm].name}`}>
-					        		    <Thumbnail pet={elm}/>
+					        		    <Thumbnail pet={this.props.pets[elm]}/>
 					        		</Link>
 				        		</li>)
 				    }
