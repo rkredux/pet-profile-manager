@@ -37,7 +37,6 @@ class Main extends React.Component{
 				</h1>
 				<Route exact path="/" component={this.PhotoRoute}></Route>
 				<Route path={`${/:petId/}`} component={Profile}></Route>
-				<Upload></Upload>
 			</div>
 
         ); 
